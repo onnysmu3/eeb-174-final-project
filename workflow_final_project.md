@@ -2,6 +2,10 @@
 
 **THE DISTRIBUTION OF GENUS NEOTRYGON AROUND THE WORLD BASED ON BOLDSYSTEM DATABASE**
 
+by
+ONNY N. MARWAYANA
+Master student at EEB Dept. UCLA
+
 I downloaded two datasets, which are 1). list of the distribution area of *Neotrygon*, 2). sequence database of *Neotrygon*. 
 
 [The datasets were donwloaded from BOLD System database]:http://www.boldsystems.org/index.php/databases
