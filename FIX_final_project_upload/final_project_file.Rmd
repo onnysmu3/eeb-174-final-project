@@ -31,7 +31,7 @@ The material that we use in this project is a speciment database of genus *Neotr
 
 These are some  commands in `UNIX shell` to answer the questions:
 ```{bash, eval=F}
-cd /Desktop/eeb-177/eeb-174-final-project/final_project_upload
+cd /Desktop/eeb-177/eeb-174-final-project/FIX_final_project_upload
 ls
 cut -f 6 CP_NK_bold.txt | tail -n +2 | sort | uniq | wc -l
 cut -f 6 CP_NK_bold.txt | tail -n +2 | sort | uniq
@@ -44,14 +44,14 @@ touch new_database.txt #Make a new .txt file
 
 And this is some commands in `iPython` to create the dictionary:
 ```{python, eval=F}
-neotrygon = open("... /final_project_upload/formatted_bold_data.csv")
-#(for a complete directory adrress, please look above at cd /Desktop ...)
+neotrygon = open(".../FIX_final_project_upload/CP_NK_bold.txt")
+#(for a complete directory adrress, please look at above at cd /Desktop ...)
 neotrygon.readline()
 neotrygon_dict = {}
 for line in neotrygon:
-    species = line.split(",")[20]
-    institution = line.split(",")[5]
-    country = line.split (",")[37]
+    species = line.split("\t")[20]
+    institution = line.split("\t")[5]
+    country = line.split ("\t")[37]
     values = [institution, country]
     neotrygon_dict[species] = values
 print(neotrygon_dict)
@@ -65,7 +65,7 @@ print(neotrygon_dict)
 By running the commands on `UNIX shell`, we get some information explained below:
 
 ```{bash, echo=F}
-cd /Desktop/eeb-177/eeb-174-final-project/final_project_upload
+cd /Desktop/eeb-177/eeb-174-final-project/FIX_final_project_upload
 touch new_database.txt
 cut -f 6 CP_NK_bold.txt | tail -n +2 | sort | uniq | wc -l > new_database.txt
 cut -f 6 CP_NK_bold.txt | tail -n +2 | sort | uniq >> new_database.txt
@@ -84,7 +84,6 @@ In addition, there are 85 speciments of 7 species that have been recorded on the
 
 ```{python, echo=F}
 neotrygon = open("/home/eeb177-student/Desktop/eeb-177/eeb-174-final-project/CP_NK_bold.txt")
-#(for a complete directory adrress, please look at above at cd /Desktop ...)
 neotrygon.readline()
 neotrygon_dict = {}
 for line in neotrygon:
