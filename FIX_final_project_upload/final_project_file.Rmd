@@ -20,12 +20,13 @@ The purpose of this project are to collect some information about this genus reg
 \clearpage
 
 
-![Neotrygon kuhlii](/home/eeb177-student/Desktop/eeb-177/eeb-174-final-project/FIX_final_project_upload/Blue-spotted_Stingray_(Neotrygon_kuhlii)_(8465011759).jpg)\footnote{https://en.wikipedia.org/wiki/Maskray}
+
+![*Neotrygon kuhlii*](/home/eeb177-student/Desktop/eeb-177/eeb-174-final-project/FIX_final_project_upload/Blue-spotted_Stingray_(Neotrygon_kuhlii)_(8465011759).jpg)
 
 \clearpage
 
 
-## **Material and Methods**
+##**Material and Methods**
 
 The material that we use in this project is a speciment database of genus *Neotrygon*, which has been downloaded from [BoldSystem](http://www.boldsystems.org/index.php/Public_SearchTerms). The database has been created and published by some researchers [@Pavan_Kumar_2013; @Borsa_2013; @Cerutti_Pereyra_2012] By using some commands in `UNIX shell` and `iPython`, we manipulate the database to achieve the purpose. The commands are showed below.
 
@@ -60,7 +61,7 @@ print(neotrygon_dict)
 \clearpage
 
 
-## **Result and Discussion**
+## **Results and Discussion**
 
 By running the commands on `UNIX shell`, we get some information explained below:
 
