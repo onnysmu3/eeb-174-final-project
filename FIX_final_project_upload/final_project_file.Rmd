@@ -11,25 +11,25 @@ csl: journal-of-fish-biology.csl
 
 ## **Introduction**
 
-A genus of stingrays in the family of Dasyatidae is Neotrygon, which is mostly distributed in the Indo-West Pacific area. This genus is also called as the Maskrays since they have a special color pattern around their eyes, considering as a mask. *Neotrygon kuhlii* (Figure 1) is a species in this genus. Many researchers originally put the species under this genus in the genus of Dasyatis. However, some morphological and molecular analysis in taxonomy studies showed that the genus was supposed to be splitted into another genus so that genus Neotrygon was created [@Last_2008].
+A genus of stingrays in the family of Dasyatidae is *Neotrygon*, which is mostly distributed in the Indo-West Pacific area. This genus is also called as the Maskrays since is has a special color pattern around the eyes, considering as a mask. *Neotrygon kuhlii* (Figure 1) is a species in this genus. Many researchers originally put the species under this genus in the genus of *Dasyatis*. However, some morphological and molecular analysis in taxonomy studies showed that the genus was supposed to be splitted into another genus so that genus Neotrygon was created [@Last_2008].
 
-To do both analysis, researchers really need to observe and refer to the holotype and paratype of the samples that actually have been preserved in some reference collections, such as Australian National Fish Collection, CSIRO. There is a webpage called [**BoldSystem**](http://www.boldsystems.org/)\footnote{http://www.boldsystems.org/index.php/databases}, which provides some database of some species of living organisms around the world which have been collected, recorded, and preserved in in some reference collections. The Barcode of Life Data Systems (BOLD) is definetely an informatics workbench aiding the acquisition, storage, analysis, and publication of DNA barcode records. By assembling molecular, morphological, and distributional data, it bridges a traditional bioinformatics chasm [@Ratnasingham_2007]. 
+To do both analysis, researchers really need to observe and refer to the holotype and paratype of the samples that actually have been preserved in some reference collections, such as Australian National Fish Collection - CSIRO. There is a web page called [**BoldSystem**](http://www.boldsystems.org/)\footnote{http://www.boldsystems.org/index.php/databases}, which provides some species database of living organisms around the world which have been collected, recorded, and preserved at some reference collections. The Barcode of Life Data Systems (BOLD) is definetely an informatics workbench aiding the acquisition, storage, analysis, and publication of DNA barcode records. By assembling molecular, morphological, and distributional data, it bridges a traditional bioinformatics chasm [@Ratnasingham_2007]. 
 
-The purpose of this project are to to collect some information about this genus regarding the database of genus *Neotrygon* donwloaded from BoldSystem then use it to answer 1). how many institutions have stored the speciements, 2). how many speciments are stored in each instituion, 3). where the speciements mostly have been stored. Finally, we will make a dictionary that contains the answer of the questions. At the end of this project, we will get the information regarding the collections of genus *Neotrygon* in BoldSystem database.
-
-\clearpage
-
-![Neotrygon kuhlii](/home/eeb177-student/Desktop/eeb-177/eeb-174-final-project/final_project_upload/Blue-spotted_Stingray_(Neotrygon_kuhlii)_(8465011759).jpg)
-
-\footnote{https://en.wikipedia.org/wiki/Maskray}
+The purpose of this project are to collect some information about this genus regarding the database of genus *Neotrygon* donwloaded from BoldSystem and use it to answer some research questions: 1). how many institutions have stored the speciements, 2). how many speciments are stored in each instituion, 3). where the speciements mostly have been stored. Finally, we will make a dictionary that contains the answer of the questions. At the end of this project, we will get the information regarding the collections of genus *Neotrygon* in BoldSystem database.
 
 \clearpage
 
-## **Materials and Methods**
 
-The material that we use in this project is a speciment database of genus *Neotrygon*, which has been downloaded from [BoldSystem](http://www.boldsystems.org/index.php/Public_SearchTerms). The database has been created and published by some researchers [@Pavan_Kumar_2013; @Borsa_2013; @Cerutti_Pereyra_2012] By using some commands of UNIX shell and iPython, we manipulate the database to achieve the purpose of this project. The commands are showed below.
+![Neotrygon kuhlii](/home/eeb177-student/Desktop/eeb-177/eeb-174-final-project/FIX_final_project_upload/Blue-spotted_Stingray_(Neotrygon_kuhlii)_(8465011759).jpg)\footnote{https://en.wikipedia.org/wiki/Maskray}
 
-These are some UNIX shell commands to answer the question:
+\clearpage
+
+
+## **Material and Methods**
+
+The material that we use in this project is a speciment database of genus *Neotrygon*, which has been downloaded from [BoldSystem](http://www.boldsystems.org/index.php/Public_SearchTerms). The database has been created and published by some researchers [@Pavan_Kumar_2013; @Borsa_2013; @Cerutti_Pereyra_2012] By using some commands in `UNIX shell` and `iPython`, we manipulate the database to achieve the purpose. The commands are showed below.
+
+These are some  commands in `UNIX shell` to answer the questions:
 ```{bash, eval=F}
 cd /Desktop/eeb-177/eeb-174-final-project/final_project_upload
 ls
@@ -42,7 +42,7 @@ touch new_database.txt #Make a new .txt file
 #finally, end up the information on the new file
 ```
 
-And this is some commands in iPython to create the dictionary:
+And this is some commands in `iPython` to create the dictionary:
 ```{python, eval=F}
 neotrygon = open("... /final_project_upload/formatted_bold_data.csv")
 #(for a complete directory adrress, please look above at cd /Desktop ...)
@@ -58,6 +58,7 @@ print(neotrygon_dict)
 ```
 
 \clearpage
+
 
 ## **Result and Discussion**
 
@@ -76,9 +77,9 @@ less new_database.txt
 ```
 
 
-The result explains that there are 4 institutions around the world which have preserved some speciments of genus *Neotrygon*. Biodiversity Institute of Ontario stored 11 speciments. Central Institute of Fisheries Education preserved one speciment, while CSIRO - Australian National Fish Collection and GenBank-NCBI saved 40 and 32 speciments. Based on the result, we know that the speciements of *Neotrygon* from around the world mostly have been preserved in CSIRO, Australian National Fish Collection. This information indicates that we should refer to the collection preserved in the institution if we want to study the conventional taxonomy of genus *Neotrygon* and anaalyze the morphological characters of the genus. Moreover, the holotypes and paratypes of the genus have probably preserved in the institution. 
+The result explains that there are 4 institutions around the world which have preserved some speciments of genus *Neotrygon*. Biodiversity Institute of Ontario stored 11 speciments. Central Institute of Fisheries Education preserved one speciment, while CSIRO - Australian National Fish Collection and GenBank-NCBI saved 40 and 32 speciments. Based on the result, we know that the speciements of *Neotrygon* from around the world mostly have been preserved at the Australian National Fish Collection - CSIRO. This information indicates that we should refer to the collection preserved at the institution if we want to study the conventional taxonomy of genus *Neotrygon* and anaalyze the morphological characters of the genus. Moreover, the holotypes and paratypes of the genus have probably preserved at the institution. 
 
-In addition, there are 85 speciments of 7 species that have been recorded on the BoldSystem web page. The species are *N. annotata*, *N. cf. annotata*, *N. kuhlii*, *N. leylandi*, *N. ningalooensis*, *N. picta*, and *N. trigonoides*. Based on the database, *N. kuhlii* is the most popular species of genus *Neotrygon*, which was colleceted around the world. This information describes that the  most distributed species of genus *Neotrygon* in the world is *N. kuhlii*. Puckridge and colleagues state that *N. kuhlii* has been broadly distributed in Japan, the South East Asia region, Northern Australia, and the Western coast of Africa [@Puckridge_2013].
+In addition, there are 85 speciments of 7 species that have been recorded on the BoldSystem web page. The species are *N. annotata*, *N. cf. annotata*, *N. kuhlii*, *N. leylandi*, *N. ningalooensis*, *N. picta*, and *N. trigonoides*. Based on the database, *N. kuhlii* is the most popular species of genus *Neotrygon*, which was colleceted around the world. This information describes that the most distributed species of genus *Neotrygon* is *N. kuhlii*. Puckridge and colleagues state that *N. kuhlii* has been broadly distributed in Japan, the South East Asia region, Northern Australia, and the Western coast of Africa [@Puckridge_2013].
 
 
 ```{python, echo=F}
@@ -96,17 +97,18 @@ print(neotrygon_dict)
 
 ```
 
-This is a dictionary constructed from the database using `Python` program. Based on the dictionary, every single speciment of *Neotrygon sp.* has been collected from a specific country and preserved at a specific reference collection. For example, the speciments of *N. kuhlii* were mostly collected from India, while *N. trigonoides* were collected from New Caledonia. From South East Asia region, Indonesia represents the region with contributing some speciments of *N. cf. annotata*. This information truely indicates that the species in genus *Neotrygon* has been vastly distributed from the South Pacific region until Indian Ocean. That is like what Puckridge and colleagues state in their article [@Puckridge_2013].
+This is a dictionary constructed from the database using `Python` program. Based on the dictionary, every single speciment of genus *Neotrygon* has been collected from a specific country and preserved at a specific reference collection. For example, the speciments of *N. kuhlii* were mostly collected from India, while *N. trigonoides* were collected from New Caledonia. In South East Asia region, Indonesia represents the region that contributes some speciments of *N. cf. annotata*. This information truely indicates that the species in genus *Neotrygon* has been vastly distributed from the South Pacific region until Indian Ocean. That is like what Puckridge and colleagues state in their article [@Puckridge_2013].
+
 
 ## **Conclusion**
 
-Based on the data set, there are 85 speciments of 7 species in genus *Neotrygon*, which have been preserved at 4 reference collections around the world; they are Biodiversity Institute of Ontario, Central Institute of Fisheries Education, Australian National Fish Collection - CSIRO, and GenBank - NCBI. The highest number of species is *N. kuhlii*, which were mostly collected from India.
+Based on the data set, there are 85 speciments of 7 species in genus *Neotrygon*, which have been preserved at 4 reference collections around the world; they are Biodiversity Institute of Ontario, Central Institute of Fisheries Education, Australian National Fish Collection - CSIRO, and GenBank - NCBI. The highest species number of genus *Neotrygon* based on BoldSystem database is *N. kuhlii*, which were mostly collected from India.
 
 Furthermore, we can manipulate some database to answer some questions that we were wondering to know by using some commands and functions in `UNIX shell` and `iPython`. This article also was created by using `R markdown` in `R studio`. Therefore, some computer programming could ease some researcher in manipulating their data to achieve the target of their research.
 
 ## **GitHub address**
 
-[This is my GitHub address for final project: ]
+[This is my GitHub address for final project: https://github.com/onnysmu3/eeb-174-final-project/tree/master/FIX_final_project_upload](https://github.com/onnysmu3/eeb-174-final-project/tree/master/FIX_final_project_upload)
 
 \clearpage
 
