@@ -1,5 +1,5 @@
 ---
-title: "The distribution of Genus *Neotrygon* around the world based on BoldSystem database"
+title: "The distribution of genus *Neotrygon* around the world based on BoldSystem database"
 author: "Onny Nurrahman Marwayana"
 geometry: margin=1in
 output:
@@ -11,7 +11,7 @@ csl: journal-of-fish-biology.csl
 
 ## **Introduction**
 
-A genus of stingrays in the family of Dasyatidae is *Neotrygon*, which is mostly distributed in the Indo-West Pacific area. This genus is also called as the Maskrays since is has a special color pattern around the eyes, considering as a mask. *Neotrygon kuhlii* (Figure 1) is a species in this genus. Many researchers originally put the species under this genus in the genus of *Dasyatis*. However, some morphological and molecular analysis in taxonomy studies showed that the genus was supposed to be splitted into another genus so that genus Neotrygon was created [@Last_2008].
+A genus of stingrays in the family of Dasyatidae is *Neotrygon*, which is mostly distributed in the Indo-West Pacific area. This genus is also called as the Maskrays since is has a special color pattern around the eyes, considering as a mask. *Neotrygon kuhlii* (Figure 1) is a species in this genus. Many researchers originally put the species under this genus in the genus of *Dasyatis*. However, some morphological and molecular analysis in taxonomy studies showed that the genus was supposed to be splitted into another genus so that genus *Neotrygon* was created [@Last_2008].
 
 To do both analysis, researchers really need to observe and refer to the holotype and paratype of the samples that actually have been preserved in some reference collections, such as Australian National Fish Collection - CSIRO. There is a web page called [**BoldSystem**](http://www.boldsystems.org/)\footnote{http://www.boldsystems.org/index.php/databases}, which provides some species database of living organisms around the world which have been collected, recorded, and preserved at some reference collections. The Barcode of Life Data Systems (BOLD) is definetely an informatics workbench aiding the acquisition, storage, analysis, and publication of DNA barcode records. By assembling molecular, morphological, and distributional data, it bridges a traditional bioinformatics chasm [@Ratnasingham_2007]. 
 
