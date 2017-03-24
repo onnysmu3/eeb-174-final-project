@@ -1,0 +1,7 @@
+This is a text file which explains about CP_NK_bold data.
+
+CP is the abreviation of Class Project
+NK is the abreviation of Neotrygon kuhlii
+bold refers to a web-pagein which the data comes from.
+
+Some data in this repository come from the BOLDSYSTEM database which can be browshed on http://www.boldsystems.org/index.php/databases. These data tell us about the distribution of Neotrygon kuhlii, a species of sting ray, arounf the world. Some researchers have collected the speciments and uploaded the data on the web-page. I would like to manipulate these data and perform some information about the data by using UNIX shell on my final project.

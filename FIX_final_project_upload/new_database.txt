@@ -1,0 +1,17 @@
+4
+Biodiversity Institute of Ontario
+Central Institute of Fisheries Education
+CSIRO, Australian National Fish Collection
+Mined from GenBank, NCBI
+     11 Biodiversity Institute of Ontario
+      1 Central Institute of Fisheries Education
+     40 CSIRO, Australian National Fish Collection
+     32 Mined from GenBank, NCBI
+7
+      3 Neotrygon annotata
+      5 Neotrygon cf. annotata
+     56 Neotrygon kuhlii
+      8 Neotrygon leylandi
+      3 Neotrygon ningalooensis
+      8 Neotrygon picta
+      1 Neotrygon trigonoides
